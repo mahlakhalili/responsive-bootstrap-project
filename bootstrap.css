@@ -1,0 +1,38 @@
+*{
+    font-family: 'vazir';
+}
+body{
+    direction: rtl;
+    font-family: 'vazir';
+}
+
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+@font-face{
+    font-family: 'vazir';
+    src: url(./Vazir.ttf);
+}
+
+nav{
+    background-color: #9fbef5 !important;
+}
+
+.card{
+    background-color: #e9eef4 !important
+}
+
+.aboutme{
+    background-color: #9ebef7 !important;
+}
+
+.contact{
+    background-color: #e9eef4 !important;
+}
+
+/* .button-obs{
+    background-color: #9ebef7 !important ;
+} */
